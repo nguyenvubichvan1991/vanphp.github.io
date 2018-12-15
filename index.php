@@ -118,7 +118,7 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                Website được tạo bởi Nguyễn Vũ Bích Vân, Lớp DLB16HT201</h4>
+                Website được tạo bởi nhóm Tú, Thúy, Hiền, Hạnh, Vân, Lớp DLB16HT201</h4>
         </div>
     </div>
 </body>
