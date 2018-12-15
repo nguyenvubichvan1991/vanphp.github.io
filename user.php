@@ -1,5 +1,4 @@
-﻿<?php
-include_once "Database.php";
+﻿<?php include_once "https://dlb16ht201.herokuapp.com/Database.php";
 
 if(!isset($_POST['btnthem']) || $_POST['btnthem']=="")
 {
@@ -64,6 +63,6 @@ DANH SÁCH người dùng</h3>
     echo "Tổng cộng: ".$stt; 
 ?>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="~/dangnhap.php">Trở về trang chủ <a/> &nbsp;&nbsp;&nbsp; 
+<a href="https://dlb16ht201.herokuapp.com/dangnhap.php">Trở về trang chủ <a/> &nbsp;&nbsp;&nbsp; 
 
 </form>
