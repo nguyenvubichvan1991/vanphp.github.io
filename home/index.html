@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quản lý học sinh</title>
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        $('document').ready(function () {
+
+            $('#dangnhap').mousemove(function () {
+                $('#dn').text('Tên đăng nhập phải dài hơn 8 ký tự');
+            });
+            $('#dangnhap').mouseout(function () {
+                $('#dn').text('');
+            });
+
+            $('#matkhau').mousemove(function () {
+                $('#mk').text('Tên đăng nhập phải dài hơn 8 ký tự');
+            });
+            $('#matkhau').mouseout(function () {
+                $('#mk').text('');
+            });
+
+            $('#bt4').click(function () {
+                $('p').removeClass();
+            });
+
+            $('#bt5').click(function () {
+                $('p').removeClass().addClass('xanh');
+            });
+
+            $('#bt6').click(function () {
+                $('p').removeClass().addClass('do');
+            });
+
+            $('tr').mousemove(function () {
+                $(this).addClass('maunen');
+            });
+
+            $('tr').mouseout(function () {
+                $(this).removeClass();
+            });
+    </script>
+  
+</head>
+<body>
+    <div id="wraper">
+        <div id="banner">
+            <div class="tieude">
+                <img src="images/have%20a%20good%20day.gif" width="300px" />
+            </div>
+            <div class="dangnhap">
+                Tên đăng nhập<input id="Text1" type="text" />
+            </div>
+            <div class="matkhau">
+                Mật khẩu<input id="Text2" type="text" />
+            </div>
+            <div class="buom1">
+                <img src="images/buom.gif" width="100px" />
+            </div>
+            <div class="buom2">
+                <img src="images/buom.gif" width="75px" />
+            </div>
+            <div class="anhdong">
+                <img src="images/tuyetroi.gif" />
+            </div>
+            <div class="wellcome">
+                <img src="images/welcom.gif" width="300px" />
+            </div>
+        </div>
+        <div id="menungang">
+            <p>
+                <span class="nhanmanh">chào mừng bạn</span> đã đến trang web <span class="nhanmanh">
+                    chúng tôi</span></p>
+        </div>
+        <div id="cottrai">
+            <h2>
+                "Hello</h2>
+        </div>
+        <div id="cotgiua">
+            <div id="switcher">
+                <h3>
+                    Đổi định dạng</h3>
+                <div class="button selected" id="switcher-default">
+                    <input id="Button1" type="button" value="Mac dinh" onclick="return Button1_onclick()" /></div>
+                <div class="button" id="switcher-red">
+                    <input id="Button2" type="button" value="mau do" onclick="return Button2_onclick()" /></div>
+                <div class="button" id="switcher-green">
+                    <input id="Button3" type="button" value="Màu Xanh" /></div>
+            </div>
+            <div class="text">
+                <h1>
+                    This is the first para</h1>
+                <p class="chapter">
+                    Pellentesque
+                </p>
+                <h1>
+                    This is the second para</h1>
+                <p>
+                Pellentesque
+            </div>
+            <br />
+            <br />
+            <table style="width: 100%;">
+                <tr>
+                    <td align="right" width="30%">
+                        Tên đăng nhập:
+                    </td>
+                    <td>
+                        <input id="dangnhap" type="text" value="" />
+                        <span id="dn"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        Mật khẩu:
+                    </td>
+                    <td>
+                        <input id="matkhau" type="password" value="" />
+                        <span id="mk"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <input id="btndn" type="button" value="Đăng nhập" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <br />
+            <table style="width: 100% "> boder=1px;
+                <tr >
+                    <td style="width: 30%;">
+                        &nbsp;</td>
+                    <td>
+                        1</td>
+                    <td>
+                        1</td>
+                </tr>
+                <tr>
+                    <td style="width: 30%;">
+                        &nbsp;</td>
+                    <td>
+                        2</td>
+                    <td>
+                        2</td>
+                </tr>
+                <tr>
+                    <td style="width: 40%;">
+                        &nbsp;</td>
+                    <td>
+                        3</td>
+                    <td>
+                        3</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        4</td>
+                    <td>
+                        4</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        5</td>
+                    <td>
+                        5</td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <input id="bt4" type="button" value="binh thuong" />&nbsp;
+            <input id="bt5" type="button" value="xanh" />&nbsp;
+            <input id="bt6" type="button" value="do" /><br />
+            <p>
+                Chỉ còn một vài ngày nữa, kỳ thi tuyển sinh Đại học bắt đầu. PV Báo Giáo dục Việt
+                Nam ghi lại những...
+            </p>
+            <ul id="nav">
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Forum</a>
+                    <ul>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul>
+                </li>
+                <li><a href="http:www.jquery.com">Tutorials</a></li>
+                <li><a href="http:www.google.com.vn">Google</a></li>
+                <ul>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Effect</a></li>
+                    <li><a href="#">Plugins</a></li>
+                </ul>
+                <li><a href="mailto:email@yahoo.com">Email</a></li>
+            </ul>
+        </div>
+        <div id="cotphai">
+            <h3>
+                cột phải của trang web</h3>
+        </div>
+        <div id="clear">
+        </div>
+        <div id="cuoitrang">
+            <h4>
+                cuối trang</h4>
+        </div>
+    </div>
+</body>
+</html>
