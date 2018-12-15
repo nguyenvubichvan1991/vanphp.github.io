@@ -1,0 +1,239 @@
+body /*background:color image reapet attachment position*/
+{
+    background-color: white;
+    background-image: url('../images/xanhlacay.jpg');
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-position:right bottom;
+}
+
+h1,h2,h3
+{
+    font-family:Arial Times New Roman
+}
+#wraper
+{
+    width: 1000px;
+    margin:auto;
+    background-color: White;
+}    
+
+#banner
+{
+    height: 300px;
+    background-image: url('../images/xanhco.jpg');
+    position:relative;
+}
+
+#menungang
+{
+    height: 50px;
+    margin-top:2px;
+    background-color: Fuchsia;
+}
+
+#cottrai
+{
+    width: 140px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-image: url('../images/xanhduong.jpg');
+    float:left;
+}
+
+#cotgiua
+{
+    width: 790px;
+    float: left;
+    margin-top:5px;
+    background-image: url('../images/xanhco.jpg');
+}
+
+#cotphai
+{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-image: url('../images/mauca.jpg');
+    float:left;
+}
+
+#cuoitrang
+{
+    height:50px;
+    background-color: Gray; 
+}
+
+#clear
+{
+    clear:both;
+}
+
+h1
+{
+    text-align:center;
+    color:White;
+    font-style:italic;
+    
+}
+
+h2
+{/* font: style variant weight zize family*/
+    font-style: inherit;
+    font-variant:small-caps;
+    font-size:20px;
+    font-family: Times New Roman;
+    font-weight:bolder;
+    text-align:left;
+    color:black;
+    text-indent:30px;
+    letter-spacing: normal;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+h2:link
+{
+  color:Black;   
+}
+
+h2:hover
+{
+   background-color:Maroon;
+   color: Yellow;
+   font-size:20px;
+   text-decoration: blink;
+}
+
+h2:visited
+{
+    background-color:Blue;
+    color:Fuchsia;
+    text-decoration:none;
+}
+
+h2:active
+{
+    color:Teal;
+    font-variant:small-caps;
+}
+
+
+h3
+{
+    font-family:Times New Roman;
+    font-style:italic;
+    font-variant:small-caps;
+    font-weight:bold;
+    font-size:small;
+    text-align:center;
+    color:White;
+    text-indent:20px;
+    letter-spacing: inherit;
+    text-decoration: overline;
+    text-transform:capitalize;
+ 
+}
+
+.nhanmanh
+{
+    font-weight: bold;
+	 font-size:100px;
+}
+
+.tieude
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.dangnhap
+{
+    position: absolute;
+    color:White;
+    right:10px;
+    top:10px;
+}
+
+.matkhau
+{
+    position: absolute;
+    color:White;
+    right:10px;
+    top:35px; 
+}
+
+.buom1
+{
+    position: absolute;
+    left:500px;
+    top:50px;
+    
+}
+
+.buom2
+{
+    position: absolute;
+    left:600px;
+    top:100px;
+}
+
+.buom2:hover
+{
+    position: absolute;
+    left:400px;
+    top:100px;
+}
+
+.anhdong
+{
+    position:absolute;
+}
+
+.wellcome
+{
+    position: absolute;
+    right:10px;
+    top:70px;
+}
+
+body.gree.text
+{
+    color:Green;
+}
+
+
+body.red .text {
+color: red;
+}
+
+.selected
+{
+    font-weight:bold;
+}    
+
+.hidden
+{
+    display:none;    
+}
+
+.highlight
+{
+    border-bottom: 1px solid #e6db55;
+    padding: 5px;
+}
+
+.do
+{
+   color:Red 
+}
+
+.xanh
+{
+   color: Blue
+}
+
+.maunen
+{
+    background-color:white
+}
