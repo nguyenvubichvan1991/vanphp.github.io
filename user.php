@@ -64,6 +64,6 @@ DANH SÁCH người dùng</h3>
     echo "Tổng cộng: ".$stt; 
 ?>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="dangnhap.php">Trở về trang chủ <a/> &nbsp;&nbsp;&nbsp; 
+<a href="~/dangnhap.php">Trở về trang chủ <a/> &nbsp;&nbsp;&nbsp; 
 
 </form>
