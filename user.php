@@ -1,4 +1,4 @@
-﻿<?php include_once "https://dlb16ht201.herokuapp.com/Database.php";
+﻿<?php include_once "Database.php";
 
 if(!isset($_POST['btnthem']) || $_POST['btnthem']=="")
 {
