@@ -19,8 +19,8 @@
             </div>
         </div>
         <div id="menungang">
-			<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspĐĂNG NHẬP HỆ THỐNG</span>
-			&nbsp;&nbsp;&nbsp<span class="nhanmanh" style="font-size: 30px">QUẢN LÍ HỌC SINH</span>
+			<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspChào mừng bạn đến hệ thống</span>
+			&nbsp;&nbsp;&nbsp<span class="nhanmanh" style="font-size: 30px">quản lí trường học</span>
 			</p>
         </div>
         <div id="cottrai">
@@ -29,8 +29,7 @@
         <div id="cotgiua">
             <br />
             <br />
-		<h2>Chào mừng bạn đến hệ thống quản lí trường học</h2> <br/>
-		<h1><a href="Login.php" target="body" class="nhanmanh" style="font-size: 12px">Đăng Nhập Hệ Thống </a> </h1>
+		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
            
         </div>
         <div id="cotphai">
