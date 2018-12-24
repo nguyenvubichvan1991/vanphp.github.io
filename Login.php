@@ -72,7 +72,7 @@
                 <a href="index.php">Trang chủ</a>
             </li>
             <li><a href="Login.php">Đăng nhập</a></li>
-            
+            <li><a href="truonghoc.php">Danh sách trường học</a></li>
         </ul>
     </div>
     <div id="wrapper">
