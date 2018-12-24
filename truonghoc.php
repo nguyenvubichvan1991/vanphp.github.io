@@ -10,3 +10,4 @@
 					<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
 				  </select>
 </form>
+<p><a href="index.php">về trang chủ</a></p>
