@@ -20,18 +20,14 @@
             </li>
             <li><a href="#"> Danh mục</a></li>
             <li><a href="#">Tra cứu</a></li>
-            <li><a href="login.html">Đăng nhập</a></li>
+            <li><a href="login.php">Đăng nhập</a></li>
             
         </ul>
     </div>
     <div id="wrapper">
-            <div id="left">Left menu
+            <div id="left">
             </div>
-            <div id="main">
-               
-			   <h2>Xin chào, Bạn đến với hệ thống</h2>
-			   
-            </div> 
+            <div id="main"><h2>Xin chào, Bạn đến với hệ thống</h2></div> 
             
             
             
