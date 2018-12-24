@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
 	<meta name="author" content="GallerySoft.info" />
 
-	<title>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</title>
+	<title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC </title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
@@ -71,45 +71,28 @@
             <li style="border-left: none;">
                 <a href="index.php">Trang chủ</a>
             </li>
-          
             <li><a href="Login.php">Đăng nhập</a></li>
             
         </ul>
     </div>
     <div id="wrapper">
             <div id="main">
-				 <br />
             <br />
-			<form name="dangnhap_dk" method="post" action="nangluc.html" target="body" style="">
+			<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
 				 <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
-					<tr>
-						<td align="right" width="30%">
-							UserName:
-						</td>
-						<td>
-							<input type="text" name="txtmagv" size="14" />
-							<br/> <br/>
-						</td>
+					<tr><td align="right" width="30%">UserName:</td>
+						<td><input type="text" name="txtmagv" size="14" /><br/></td>
 					</tr>
-					<tr>
-						<td align="right">
-							Password:
-						</td>
+					<tr><td align="right">Password:</td>
 						<td>
 							<input type="password" name="txtmatkhau" size="14" />
 							<span id="mk"></span>
 						</td>
 					</tr>
-					<tr>
-						
-						<td>
-								<button >Submit</button>
-						</td>
+					<tr><td><button >Submit</button></td>
 					</tr>
 				</table>
-			
 			</form>
-
             </div> 
 
             <div id="right">Quang cao</div>
