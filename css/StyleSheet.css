@@ -99,16 +99,16 @@ h2:link
 
 h2:hover
 {
-   background-color:Maroon;
-   color: Yellow;
+   background-color:yellow;
+   color: red;
    font-size:20px;
    text-decoration: blink;
 }
 
 h2:visited
 {
-    background-color:Blue;
-    color:Fuchsia;
+    background-color:while;
+    color: black;
     text-decoration:none;
 }
 
