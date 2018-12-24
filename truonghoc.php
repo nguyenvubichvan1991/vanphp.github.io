@@ -1,4 +1,6 @@
- <form action="result.php"> 
+<br/>
+<br/>
+<form action="result.php"> 
 				  <select name="truonghoc" onchange="showtruonghoc(this.value)">
 					<option value="">danh sách trường học:</option>
 					<option value="khtn">Chuyên Hùng Vương BD</option>
