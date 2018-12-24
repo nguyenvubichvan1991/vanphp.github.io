@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
 	<meta name="author" content="GallerySoft.info" />
 
-	<title>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</title>
+	<title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
@@ -20,7 +20,7 @@
     
 <body>
     <div id="top">
-        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
+        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
     </div>
     <div id="menu">
         <ul>
