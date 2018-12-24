@@ -27,8 +27,6 @@
              <li style="border-left: none;">
                 <a href="index.php">Trang chủ</a>
             </li>
-            <li><a href="#"> Danh mục</a></li>
-            <li><a href="#">Tra cứu</a></li>
             <li><a href="Login.php">Đăng nhập</a></li>
             
         </ul>
@@ -36,32 +34,10 @@
     <div id="wrapper">
             <div id="left"></div>
             <div id="main">
-			<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-				  <p><a href="result.php" id="w3s">Chúc mừng bạn đã chọn ngành học phù hợp với năng lực</a></p>
-			</form>
-			 
-			  
-				
+		<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
+			<p><a href="result.php" id="w3s">Chúc mừng bạn đã chọn ngành học phù hợp với năng lực</a></p>
+		</form>	
             </div> 
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <div id="right">Quang cao</div>
     </div>
     <div id="bottom">
