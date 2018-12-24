@@ -35,7 +35,7 @@
             <div id="left"></div>
             <div id="main">
 		<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-			<p><a href="result.php" id="w3s">Chúc mừng bạn đã chọn ngành học phù hợp với năng lực</a></p>
+			<p><a href="truonghoc.php" id="w3s">Chúc mừng bạn đã chọn ngành học phù hợp với năng lực</a></p>
 		</form>	
             </div> 
             <div id="right">Quang cao</div>
