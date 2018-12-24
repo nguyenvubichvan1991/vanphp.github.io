@@ -73,13 +73,11 @@
             </li>
             <li><a href="#"> Danh mục</a></li>
             <li><a href="#">Tra cứu</a></li>
-            <li><a href="Login.html">Đăng nhập</a></li>
+            <li><a href="Login.php">Đăng nhập</a></li>
             
         </ul>
     </div>
     <div id="wrapper">
-            <div id="left">Left menu
-            </div>
             <div id="main">
 				 <br />
             <br />
@@ -114,25 +112,7 @@
 			</form>
 
             </div> 
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
             <div id="right">Quang cao</div>
     </div>
     <div id="bottom">
