@@ -64,7 +64,7 @@
     
 <body>
     <div id="top">
-        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
+        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
     </div>
     <div id="menu">
         <ul>
