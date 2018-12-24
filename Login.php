@@ -78,7 +78,7 @@
     <div id="wrapper">
             <div id="main">
             <br />
-			<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
+			<form name="dangnhap_dk" method="post" action="truonghoc.php" target="body" style="">
 				 <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
 					<tr><td align="right" width="30%">UserName:</td>
 						<td><input type="text" name="txtmagv" size="14" /><br/></td>
