@@ -4,45 +4,6 @@
 <head>
     <title>Quản lý học sinh</title>
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
-    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
-    <script language="javascript" type="text/javascript">
-        $('document').ready(function () {
-
-            $('#dangnhap').mousemove(function () {
-                $('#dn').text('Tên đăng nhập phải dài hơn 8 ký tự');
-            });
-            $('#dangnhap').mouseout(function () {
-                $('#dn').text('');
-            });
-
-            $('#matkhau').mousemove(function () {
-                $('#mk').text('Tên đăng nhập phải dài hơn 8 ký tự');
-            });
-            $('#matkhau').mouseout(function () {
-                $('#mk').text('');
-            });
-
-            $('#bt4').click(function () {
-                $('p').removeClass();
-            });
-
-            $('#bt5').click(function () {
-                $('p').removeClass().addClass('xanh');
-            });
-
-            $('#bt6').click(function () {
-                $('p').removeClass().addClass('do');
-            });
-
-            $('tr').mousemove(function () {
-                $(this).addClass('maunen');
-            });
-
-            $('tr').mouseout(function () {
-                $(this).removeClass();
-            });
-    </script>
-  
 </head>
 <body>
     <div id="wraper">
@@ -71,42 +32,7 @@
         <div id="cotgiua">
             <br />
             <br />
-			<form name="dangnhap_dk" method="post" action="" target="body" style="">
-				 <table style="width: 100%;">
-					<tr>
-						<td align="right" width="30%">
-							Tên đăng nhập:
-						</td>
-						<td>
-							<input type="text" name="txtmagv" size="14" />
-							<br/> <br/>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">
-							Mật khẩu:
-						</td>
-						<td>
-							<input type="password" name="txtmatkhau" size="14" />
-							<span id="mk"></span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							&nbsp;<span id="dn">Xin chào</span>
-							<?php
-								if(isset($_POST['txtmagv'])&& ($_POST['txtmatkhau'])){
-									echo $_POST["txtmagv"];
-								}
-							?>
-						</td>
-						<td>
-							 <input type="submit" name="btndangnhap" value="Đăng nhập" />
-						</td>
-					</tr>
-				</table>
-			
-			</form>
+		<p>Chào mừng bạn đến hệ thống quản lí trường học
            
         </div>
         <div id="cotphai">
