@@ -25,19 +25,19 @@
     <div id="menu">
         <ul>
              <li style="border-left: none;">
-                <a href="index.html">Trang chủ</a>
+                <a href="index.php">Trang chủ</a>
             </li>
             <li><a href="#"> Danh mục</a></li>
             <li><a href="#">Tra cứu</a></li>
-            <li><a href="Login.html">Đăng nhập</a></li>
+            <li><a href="Login.php">Đăng nhập</a></li>
             
         </ul>
     </div>
     <div id="wrapper">
-            <div id="left">Left menu
+            <div id="left">
             </div>
             <div id="main">
-			   <p><a href="result.html" id="w3s">Vui lòng chọn năng lực phù hợp</a></p>
+			   <p><a href="result.php" id="w3s">Vui lòng chọn năng lực phù hợp</a></p>
 			   <form action="result.html"> 
 				  <select name="nangluc" onchange="shownangluc(this.value)">
 					<option value="">Chọn năng lực:</option>
