@@ -19,29 +19,18 @@
             </div>
         </div>
         <div id="menungang">
-			<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspChào mừng bạn đến hệ thống</span>
-			&nbsp;&nbsp;&nbsp<span class="nhanmanh" style="font-size: 30px">quản lí trường học</span>
-			</p>
-        </div>
-        <div id="cottrai">
-          
-        </div>
-        <div id="cotgiua">
-            <br />
-            <br />
+		<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp
+			Chào mừng bạn đến hệ thống</span>
+		<span class="nhanmanh" style="font-size: 30px">quản lí trường học</span></p></div>
+        <div id="cottrai"></div>
+        <div id="cotgiua"> <br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
-           
         </div>
-        <div id="cotphai">
-            
-        </div>
-        <div id="clear">
-        </div>
+        <div id="cotphai"></div>
+        <div id="clear"></div>
         <div id="cuoitrang">
             <h4 style="font-size: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                 Website được tạo bởi Lớp DLB16HT201</h4>
         </div>
     </div>
