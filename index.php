@@ -29,7 +29,7 @@
         <div id="cotgiua">
             <br />
             <br />
-		<p>Chào mừng bạn đến hệ thống quản lí trường học</p> <br/><br/>
+		<h2>Chào mừng bạn đến hệ thống quản lí trường học</h2> <br/>
 		<P><a href="Login.php" target="body" class="nhanmanh" style="font-size: 12px">Đăng Nhập Hệ Thống </a> </P>
            
         </div>
