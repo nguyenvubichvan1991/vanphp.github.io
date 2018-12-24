@@ -69,10 +69,9 @@
     <div id="menu">
         <ul>
             <li style="border-left: none;">
-                <a href="index.html">Trang chủ</a>
+                <a href="index.php">Trang chủ</a>
             </li>
-            <li><a href="#"> Danh mục</a></li>
-            <li><a href="#">Tra cứu</a></li>
+          
             <li><a href="Login.php">Đăng nhập</a></li>
             
         </ul>
