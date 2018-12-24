@@ -23,7 +23,6 @@
              <li style="border-left: none;">
                 <a href="index.php">Trang chủ</a>
             </li>
-            <li><a href="Login.php">Đăng nhập</a></li>
         </ul>
     </div>
     <div id="wrapper">
