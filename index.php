@@ -30,7 +30,7 @@
             <br />
             <br />
 		<h2>Chào mừng bạn đến hệ thống quản lí trường học</h2> <br/>
-		<P><a href="Login.php" target="body" class="nhanmanh" style="font-size: 12px">Đăng Nhập Hệ Thống </a> </P>
+		<h1><a href="Login.php" target="body" class="nhanmanh" style="font-size: 12px">Đăng Nhập Hệ Thống </a> </h1>
            
         </div>
         <div id="cotphai">
