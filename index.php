@@ -24,15 +24,13 @@
 			</p>
         </div>
         <div id="cottrai">
-            <P class="nhanmanh" style="font-size: 12px">Quản lí danh mục </P>
-			<P><a href="user.php" target="body" class="nhanmanh" style="font-size: 12px">Quản lý người dùng </a> </P>
-			<p><a href="nangluc.php" target="body">Quản lí năng lực</a></p>
-			<p><a href="truonghoc.php" target="body">Quản lý trường học</a></p>	
+          
         </div>
         <div id="cotgiua">
             <br />
             <br />
-		<p>Chào mừng bạn đến hệ thống quản lí trường học
+		<p>Chào mừng bạn đến hệ thống quản lí trường học</p> <br/><br/>
+		<P><a href="Login.php" target="body" class="nhanmanh" style="font-size: 12px">Đăng Nhập Hệ Thống </a> </P>
            
         </div>
         <div id="cotphai">
