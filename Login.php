@@ -59,46 +59,35 @@
 		  });
 		});
 		</script>
-</head>
-   
-    
+</head> 
 <body>
     <div id="top">
-        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
+        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/>
+		HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
     </div>
     <div id="menu">
         <ul>
             <li style="border-left: none;">
                 <a href="index.php">Trang chủ</a>
             </li>
-            <li><a href="Login.php">Đăng nhập</a></li>
-            <li><a href="truonghoc.php">Danh sách trường học</a></li>
         </ul>
     </div>
     <div id="wrapper">
-            <div id="main">
-            <br />
-			<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-				 <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
-					<tr><td align="right" width="30%">UserName:</td>
-						<td><input type="text" name="txtmagv" size="14" /><br/></td>
-					</tr>
-					<tr><td align="right">Password:</td>
-						<td>
-							<input type="password" name="txtmatkhau" size="14" />
-							<span id="mk"></span>
-						</td>
-					</tr>
-					<tr><td><button >Submit</button></td>
-					</tr>
-				</table>
-			</form>
+            <div id="main"><br />
+		<form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
+		  <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
+			 <tr><td align="right" width="30%">UserName:</td>
+				<td><input type="text" name="txtmagv" size="14" /><br/></td>
+			 </tr>
+			 <tr><td align="right">Password:</td>
+			     <td><input type="password" name="txtmatkhau" size="14" /><span id="mk"></span></td>
+			 </tr>
+			 <tr><td><button >Submit</button></td></tr>
+		  </table>
+		</form>
             </div> 
-
-            <div id="right">Quang cao</div>
+ 	<div id="right"></div>
     </div>
-    <div id="bottom">
-        Copyright &copy; 2018 by Nguyen Vu Bich Van
-    </div>
+    <div id="bottom"> Copyright &copy; 2018 by DLB16HT201</div>
 </body>
 </html>
