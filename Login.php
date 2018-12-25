@@ -49,13 +49,6 @@
                 $(this).removeClass();
             });
     </script>
-	<script>
-		$(document).ready(function(){
-		  $("button").click(function(){
-			alert($("#w3s").attr("href"));
-		  });
-		});
-	</script>
 </head>
 <body>
     <div id="wraper">
