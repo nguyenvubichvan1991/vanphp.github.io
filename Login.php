@@ -75,7 +75,7 @@
 		    <li style="border-left: none;">
 			<a href="index.php">Trang chủ</a>
 		    </li>
-		</ul>
+		</ul></div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
@@ -86,7 +86,7 @@
 				 </tr>
 				 <tr><td align="right">Password:</td>
 				     <td><input type="password" name="txtmatkhau" size="14" /><span id="mk"></span></td>
-				 </tr>
+				 </tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 				 <tr><td><button >Submit</button></td></tr>
 			  </table>
 		</form>
