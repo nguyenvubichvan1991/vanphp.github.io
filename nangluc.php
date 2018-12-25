@@ -71,7 +71,7 @@
 		</ul></div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
-		  <p><a href="result.php" id="w3s">Vui lòng chọn năng lực phù hợp</a></p><br/><br/>
+		  <p><a href="result.php" id="w3s">Vui lòng chọn năng lực phù hợp</a></p>
 		<form action="result.php"> 
 			<select name="nangluc" onchange="shownangluc(this.value)">
 				<option value="">Chọn năng lực:</option>
@@ -81,7 +81,7 @@
 				<option value="kts">Kiến trúc sư</option>
 				<option value="nt">Nghệ thuật</option>
 
-			</select><br/><br/>
+			</select><br/>
 			<button>Xác nhận</button>
 		</form>	
         </div>
