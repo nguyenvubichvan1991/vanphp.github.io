@@ -18,18 +18,12 @@
     <div id="top">
         <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px"><BR/><BR/>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
     </div>
-    <div id="menu">
-        <ul>
-             <li style="border-left: none;">
-                <a href="index.php">Trang chủ</a>
-            </li>
-        </ul>
-    </div>
+    <div id="menu"></div>
     <div id="wrapper">
             <div id="left">
             </div>
             <div id="main">
-			   <p><a href="result.php" id="w3s">Vui lòng chọn năng lực phù hợp</a></p>
+			   <p><a href="result.php" id="w3s">Vui lòng chọn năng lực phù hợp</a></p><br/><br/>
 			   <form action="result.php"> 
 				  <select name="nangluc" onchange="shownangluc(this.value)">
 					<option value="">Chọn năng lực:</option>
