@@ -6,8 +6,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
-		  $("button").click(function(){
-			alert($("#w3s").attr("href"));
+		  $("submit").click(function(){
+			alert($("#demo").attr("truonghoc[]"));
 		  });
 		});
 		</script>
@@ -34,18 +34,12 @@
 				<option value="">danh sách trường học:</option>
 				<option value="khtn">Chuyên Hùng Vương BD</option>
 				<option value="khxh ">Nguyễn Khuyến BD</option>
-				<option value="tkm">Chuyên Lê Quý Đôn</option>
+				<option value="tkm" id="demo">Chuyên Lê Quý Đôn</option>
 				<option value="kts">Chuyên Đại Học Bách Khoa TPHCM</option>
 				<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
 			</select>
 			<input type="submit" name="submit"  value="Get Selected Values"/>
 		</form><br/>
-			<?php if(isset($_POST['submit'])){
-			  foreach($_POST['truonghoc'] as $select)
-			  {
-			  	echo "You have selected:" .$select;
-			  }
-			} ?>
 		<br/>
 		<p><a href="index.php">về trang chủ</a></p>
         </div>
