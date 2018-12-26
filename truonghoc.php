@@ -29,7 +29,7 @@
         <div id="menungang"></div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
-		<form action="result.php" method="post"> 
+		<form action="result_truonghoc.php" method="post"> 
 			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
 				<option value="">danh sách trường học:</option>
 				<option value="khtn">Chuyên Hùng Vương BD</option>
