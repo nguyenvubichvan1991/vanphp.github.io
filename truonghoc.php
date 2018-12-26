@@ -5,6 +5,13 @@
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#test1").text("Hello world!");
+  });
+});
+</script>
 </head>
 <body>
     <div id="wraper">
@@ -33,6 +40,7 @@
 			</select>
 			<div></div>
 			<input type="submit" name="submit"  value="Get Selected Values"/>
+			<button id="btn1">Set Text</button>
 		</form><br/>
 		<br/>
 		<p><a href="index.php">về trang chủ</a></p>
