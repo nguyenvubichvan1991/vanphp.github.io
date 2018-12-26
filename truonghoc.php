@@ -4,14 +4,16 @@
     <title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC </title>
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>
-		$(document).ready(function(){
-		  $("#example").val("0");
-			alert($("#example").val()); 
-			$("#example").val("1");
-			alert($("#example").val()); 
-		});
-		</script>
+	<script>
+		 $("select").change(function(){ 
+		  var str="";
+		 $("select option: selected").each(function(){
+		 	str += $(this).text()+"";
+		 });
+			$("div").text(str);
+				 });
+		   .trigger("change");
+	</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -38,12 +40,13 @@
 			<br/>
 			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
 				<option value="">danh sách trường học:</option>
-				<option value="khtn">Chuyên Hùng Vương BD</option>
+				<option selected="selected" value="khtn">Chuyên Hùng Vương BD</option>
 				<option value="khxh ">Nguyễn Khuyến BD</option>
 				<option value="tkm" id="demo">Chuyên Lê Quý Đôn</option>
 				<option value="kts">Chuyên Đại Học Bách Khoa TPHCM</option>
 				<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
 			</select>
+			<div></div>
 			<input type="submit" name="submit"  value="Get Selected Values"/>
 		</form><br/>
 		<br/>
