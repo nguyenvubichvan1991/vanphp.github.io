@@ -35,8 +35,9 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		 <form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-			<p><a href="truonghoc.php" id="w3s">THAM KHẢO NỘI DUNG VỀ TRƯỜNG HỌC BẠN ĐÃ CHỌN</a></p>
-			 <a href="https://bloghoahoc.com/de-thi-thu/thpt-chuyen-le-quy-don-dien-bien-lan-2-2018.html"></a>
+			<p><a href="https://bloghoahoc.com/de-thi-thu/thpt-chuyen-le-quy-don-dien-bien-lan-2-2018.html" id="w3s">
+				THAM KHẢO TRƯỜNG HỌC BẠN ĐÃ CHỌN
+			</a></p>
 		</form>	
         </div>
         <div id="cotphai"></div>
