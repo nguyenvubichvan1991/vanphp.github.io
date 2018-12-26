@@ -12,43 +12,6 @@
 		});
 		</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
-    <script language="javascript" type="text/javascript">
-        $('document').ready(function () {
-
-            $('#dangnhap').mousemove(function () {
-                $('#dn').text('Tên đăng nhập phải dài hơn 8 ký tự');
-            });
-            $('#dangnhap').mouseout(function () {
-                $('#dn').text('');
-            });
-
-            $('#matkhau').mousemove(function () {
-                $('#mk').text('Tên đăng nhập phải dài hơn 8 ký tự');
-            });
-            $('#matkhau').mouseout(function () {
-                $('#mk').text('');
-            });
-
-            $('#bt4').click(function () {
-                $('p').removeClass();
-            });
-
-            $('#bt5').click(function () {
-                $('p').removeClass().addClass('xanh');
-            });
-
-            $('#bt6').click(function () {
-                $('p').removeClass().addClass('do');
-            });
-
-            $('tr').mousemove(function () {
-                $(this).addClass('maunen');
-            });
-
-            $('tr').mouseout(function () {
-                $(this).removeClass();
-            });
-    </script>
 </head>
 <body>
     <div id="wraper">
@@ -72,7 +35,8 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		 <form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-			<p><a href="truonghoc.php" id="w3s">Bạn hãy chọn trường học phù hợp với năng lực</a></p>
+			<p><a href="truonghoc.php" id="w3s">THAM KHẢO NỘI DUNG VỀ TRƯỜNG HỌC BẠN ĐÃ CHỌN</a></p>
+			 <a href="https://bloghoahoc.com/de-thi-thu/thpt-chuyen-le-quy-don-dien-bien-lan-2-2018.html"></a>
 		</form>	
         </div>
         <div id="cotphai"></div>
