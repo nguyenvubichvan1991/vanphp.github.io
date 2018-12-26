@@ -11,7 +11,7 @@
 		 	str += $(this).text()+"";
 		 });
 			$("div").text(str);
-				 });
+				 })
 		   .trigger("change");
 	</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
