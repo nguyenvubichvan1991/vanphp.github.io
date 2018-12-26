@@ -11,9 +11,7 @@
 		  });
 		});
 		</script>
-	<script>
-	 	 document.getElementById("khxh").innerHTML="Hello";
-	</script>
+	
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -38,7 +36,7 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		 <form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-			<p id="khxh"><a href="https://bloghoahoc.com/de-thi-thu/thpt-chuyen-le-quy-don-dien-bien-lan-2-2018.html" id="w3s">
+			<p><a href="https://bloghoahoc.com/de-thi-thu/thpt-chuyen-le-quy-don-dien-bien-lan-2-2018.html" id="w3s">
 				THAM KHẢO TRƯỜNG HỌC BẠN ĐÃ CHỌN
 			</a></p>
 		</form>	
