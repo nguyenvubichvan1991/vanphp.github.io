@@ -29,8 +29,8 @@
         <div id="menungang"></div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
-		<form action="result.php"> 
-			<select name="truonghoc" onchange="showtruonghoc(this.value)">
+		<form action="result.php" method="post"> 
+			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
 				<option value="">danh sách trường học:</option>
 				<option value="khtn">Chuyên Hùng Vương BD</option>
 				<option value="khxh ">Nguyễn Khuyến BD</option>
@@ -38,7 +38,15 @@
 				<option value="kts">Chuyên Đại Học Bách Khoa TPHCM</option>
 				<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
 			</select>
-		</form><br/><br/>
+			<input type="submit" name="submit"  value="Get Selected Values"/>
+		</form><br/>
+			<?php if(isset($_POST['submit'])){
+			  foreach($_POST['truonghoc'] as $select)
+			  {
+			  	echo "You have selected:" .$select;
+			  }
+			} ?>
+		<br/>
 		<p><a href="index.php">về trang chủ</a></p>
         </div>
         <div id="cotphai"></div>
