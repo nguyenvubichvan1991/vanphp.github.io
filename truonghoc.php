@@ -6,9 +6,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
-		  $("submit").click(function(){
-			alert($("#demo").attr("truonghoc[]"));
-		  });
+		  $("#example").val("0");
+			alert($("#example").val()); 
+			$("#example").val("1");
+			alert($("#example").val()); 
 		});
 		</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
@@ -30,6 +31,11 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<form action="result_truonghoc.php" method="post"> 
+			<select id="example">
+				<option value="0">Test 0</option>
+				<option value="1">Test 1</option>
+			</select>
+			<br/>
 			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
 				<option value="">danh sách trường học:</option>
 				<option value="khtn">Chuyên Hùng Vương BD</option>
