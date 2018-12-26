@@ -72,7 +72,7 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		 <form name="dangnhap_dk" method="post" action="nangluc.php" target="body" style="">
-			<p><a href="truonghoc.php" id="w3s">Chúc mừng bạn đã chọn ngành học phù hợp với năng lực</a></p>
+			<p><a href="truonghoc.php" id="w3s">Bạn hãy chọn trường học phù hợp với năng lực</a></p>
 		</form>	
         </div>
         <div id="cotphai"></div>
