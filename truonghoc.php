@@ -4,16 +4,6 @@
     <title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC </title>
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		 $("select").change(function(){ 
-		  var str="";
-		 $("select option: selected").each(function(){
-		 	str += $(this).text()+"";
-		 });
-			$("div").text(str);
-				 })
-		   .trigger("change");
-	</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -33,11 +23,6 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<form action="result_truonghoc.php" method="post"> 
-			<select id="example">
-				<option value="0">Test 0</option>
-				<option value="1">Test 1</option>
-			</select>
-			<br/>
 			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
 				<option value="">danh sách trường học:</option>
 				<option selected="selected" value="khtn">Chuyên Hùng Vương BD</option>
