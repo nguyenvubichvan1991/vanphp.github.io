@@ -69,11 +69,11 @@
                     <ul>
                         <li  style="border-left: none;"><a href="index.php">TRANG CHỦ</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-				
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                         <a href="result_truonghoc.php">Tư vấn lựa chọn trường</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        <a href="result.php">Thống kê dữ liệu</a>
+                        <a href="thongke.php">Thống kê dữ liệu</a>
 			</li>
                     </ul>
                 </nav>
