@@ -186,6 +186,22 @@ div.menu ul li a:active
     color: #cfdbe6;
     text-decoration: none;
 }
+nav ul {
+    list-style:none;
+}
+nav ul li {
+    display:inline-block;
+    /*float:left;*/
+     /*text-align:center;*/
+    /*grid-row-align:center;*/
+    padding:10px;
+}
+nav {
+    /*float:left;*/
+   
+    padding-left:20px;
+    font-family:'Times New Roman','sans-serif';
+}
 
 /* FORM ELEMENTS   
 ----------------------------------------------------------*/
