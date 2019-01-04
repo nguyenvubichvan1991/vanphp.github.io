@@ -58,7 +58,8 @@
 				<option value="nt">Nghệ thuật</option>
 
 			</select>
-			<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			<br/><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			<button>Xác nhận</button>
 		</form>	
         </div>
