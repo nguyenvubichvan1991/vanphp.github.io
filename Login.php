@@ -64,17 +64,14 @@
             </div>
         </div>
         <div id="menungang">
-		 <ul>
-		    <li style="border-left: none;">
-			<a href="index.php">Trang chủ</a>
-		    </li>
-		    <li style="border-left: none;">
-			<a href="result_truonghoc.php">Tư vấn lựa chọn trường</a>
-		    </li>
-		    <li style="border-left: none;">
-			<a href="result.php">Thống kê dữ liệu</a>
-		    </li>
-		</ul>
+		<nav >
+                    <a href="#" id="menu-icon"></a>
+                    <ul>
+                        <li  style="border-left: none;"><a href="index.php">TRANG CHỦ</a></li>
+                        <li  style="border-left: none;"><a href="result_truonghoc.php">Tư vấn lựa chọn trường</a></li>
+                        <li  style="border-left: none;"><a href="result.php">Thống kê dữ liệu</a></li>
+                    </ul>
+                </nav>
 	</div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
