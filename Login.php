@@ -63,11 +63,10 @@
                 <img src="images/welcom.gif" width="300px" />
             </div>
         </div>
-        <div id="menungang">
-		
-	</div>
         <div id="cottrai"></div>
-        <div id="cotgiua"> <br />
+        <div id="cotgiua"> <br /> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
 		<form name="dangnhap_dk" method="post" action="Home.php" target="body" style="">
 			  <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
@@ -76,7 +75,8 @@
 				 </tr>
 				 <tr><td align="right">Password:</td>
 				     <td><input type="password" name="txtmatkhau" size="14" /><span id="mk"></span></td>
-				 </tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+				 </tr>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 				 <tr><td><button >Submit</button></td></tr>
 			  </table>
 		</form>
