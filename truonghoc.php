@@ -26,7 +26,25 @@ $(document).ready(function(){
                 <img src="images/welcom.gif" width="300px" />
             </div>
         </div>
-        <div id="menungang"></div>
+        <div id="menungang">
+		<nav >
+                    <a href="#" id="menu-icon"></a>
+                    <ul>
+                        <li  style="border-left: none;"><a href="index.php">TRANG CHỦ</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        <a href="nangluc.php">Tư vấn lựa chọn trường</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                        <a href="thongke.php">Thống kê dữ liệu</a>
+			</li>
+                    </ul>
+                </nav>
+	</div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<form action="result_truonghoc.php" method="post"> 
@@ -38,9 +56,9 @@ $(document).ready(function(){
 				<option value="kts">Chuyên Đại Học Bách Khoa TPHCM</option>
 				<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
 			</select>
-			<div></div>
+			<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			<input type="submit" name="submit"  value="Get Selected Values"/>
-			<button id="btn1">Set Text</button>
 		</form><br/>
 		<br/>
 		<p><a href="index.php">về trang chủ</a></p>
@@ -48,9 +66,12 @@ $(document).ready(function(){
         <div id="cotphai"></div>
         <div id="clear"></div>
         <div id="cuoitrang">
-            <h4 style="font-size: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                Website được tạo bởi Lớp DLB16HT201</h4>
+            <h4 style="font-size: 20px">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                Website được tạo bởi Lớp DLB16HT201
+	</h4>
         </div>
     </div>
 </body>
