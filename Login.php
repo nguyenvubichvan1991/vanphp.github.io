@@ -69,7 +69,7 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
-		<form name="dangnhap_dk" method="post" action="index.php" target="body" style="">
+		<form name="dangnhap_dk" method="post" action="Home.php" target="body" style="">
 			  <table style="width: 100%;" id="w3s" href="Đăng nhập thành công">
 				 <tr><td align="right" width="30%">UserName:</td>
 					<td><input type="text" name="txtmagv" size="14" /><br/></td>
