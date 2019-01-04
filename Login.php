@@ -64,19 +64,7 @@
             </div>
         </div>
         <div id="menungang">
-		<nav >
-                    <a href="#" id="menu-icon"></a>
-                    <ul>
-                        <li  style="border-left: none;"><a href="index.php">TRANG CHỦ</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        <a href="nangluc.php">Tư vấn lựa chọn trường</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-                        <a href="thongke.php">Thống kê dữ liệu</a>
-			</li>
-                    </ul>
-                </nav>
+		
 	</div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
