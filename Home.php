@@ -30,7 +30,7 @@
 		<nav >
                     <a href="#" id="menu-icon"></a>
                     <ul>
-                        <li  style="border-left: none;"><a href="index.php">TRANG CHỦ</a>
+                        <li  style="border-left: none; font-size: 20px"><a href="index.php">Trang chủ</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
