@@ -13,12 +13,20 @@
 		</script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
 </head>
-<body>
-    <div id="top">
-        <a href="#" style="text-decoration: none; background-color:yellow; font-size:24px">
-		<BR/><BR/>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</a>
-    </div>
-    <div id="menungang">
+	<body>
+    <div id="wraper">
+        <div id="banner">
+            <div class="buom1">
+                <img src="images/buom.gif" width="100px" />
+            </div>
+            <div class="anhdong">
+                <img src="images/tuyetroi.gif" />
+            </div>
+            <div class="wellcome">
+                <img src="images/welcom.gif" width="300px" />
+            </div>
+        </div>
+        <div id="menungang">
 		<nav >
                     <a href="#" id="menu-icon"></a>
                     <ul>
@@ -36,16 +44,18 @@
 			</li>
                     </ul>
                 </nav>
-    </div>
-    <div id="wrapper">
-            <div id="left"></div>
-            <div id="main">
-		<p></p>
-            </div> 
-            <div id="right"></div>
-    </div>
-    <div id="bottom">
-        Copyright &copy; 2018 by Nguyễn Vũ Bích Vân
+	</div>
+        <div id="cottrai"></div>
+        <div id="cotgiua"></div>
+        <div id="cotphai"></div>
+        <div id="clear"></div>
+        <div id="cuoitrang">
+            <h4 style="font-size: 20px">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                Website được tạo bởi Lớp DLB16HT201
+	    </h4>
+        </div>
     </div>
 </body>
 </html>
