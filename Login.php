@@ -68,7 +68,18 @@
 		    <li style="border-left: none;">
 			<a href="index.php">Trang chủ</a>
 		    </li>
-		</ul></div>
+		</ul>
+		 <ul>
+		    <li style="border-left: none;">
+			<a href="index.php">Tư vấn lựa chọn trường</a>
+		    </li>
+		</ul>
+		<ul>
+		    <li style="border-left: none;">
+			<a href="index.php">Thống kê dữ liệu</a>
+		    </li>
+		</ul>
+	</div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
