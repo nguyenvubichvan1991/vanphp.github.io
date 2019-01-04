@@ -18,12 +18,12 @@
                 <img src="images/welcom.gif" width="300px" />
             </div>
         </div>
-        <div id="menungang">
+        <div id="cottrai"></div>
+        <div id="cotgiua"> 
 		<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp
 			Chào mừng bạn đến hệ thống</span>
-		<span class="nhanmanh" style="font-size: 30px">quản lí trường học</span></p></div>
-        <div id="cottrai"></div>
-        <div id="cotgiua"> <br />
+		<span class="nhanmanh" style="font-size: 30px">quản lí trường học</span></p>
+		<br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
         </div>
         <div id="cotphai"></div>
