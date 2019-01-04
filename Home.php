@@ -1,18 +1,17 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
-	<meta name="author" content="GallerySoft.info" />
-	<title>HỆ THỐNG GỢI Ý TRƯỜNG HỌC THEO NĂNG LỰC, SỞ THÍCH</title>
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC </title>
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function(){
 		  $("button").click(function(){
 			alert($("#w3s").attr("href"));
 		  });
 		});
-		</script>	
+		</script>
+<script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="top">
