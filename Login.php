@@ -68,13 +68,9 @@
 		    <li style="border-left: none;">
 			<a href="index.php">Trang chủ</a>
 		    </li>
-		</ul>
-		 <ul>
 		    <li style="border-left: none;">
 			<a href="result_truonghoc.php">Tư vấn lựa chọn trường</a>
 		    </li>
-		</ul>
-		<ul>
 		    <li style="border-left: none;">
 			<a href="result.php">Thống kê dữ liệu</a>
 		    </li>
