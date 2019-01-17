@@ -21,7 +21,7 @@
         <div id="cottrai"></div>
         <div id="cotgiua"> 
 		<p><span class="nhanmanh" style="font-size: 30px">&nbsp;&nbsp;&nbsp
-			Chào mừng bạn đến hệ thống</span>
+			Hệ thống</span>
 		<span class="nhanmanh" style="font-size: 30px">lựa chọn trường học theo năng lực</span></p>
 		<br />
 		<h2><a href="Login.php">Đăng Nhập Hệ Thống </a> </h2>
